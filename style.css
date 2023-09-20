@@ -1,18 +1,24 @@
+#logo {
+position:fixed;
+top: 8px;
+width: 80px;
+}
+
 ul {
-    float: right;
-    padding-right: 10%;
+  text-align: right;
 }
 
 ul li{
     display: inline;
     list-style: none;
-    margin: 25px;
+    margin:  25px;
 }
 
 .menu-button-container {
   display: none;
   height: 100%;
   width: 30px;
+  margin-bottom: 58px;
   cursor: pointer;
 }
 
@@ -70,22 +76,34 @@ ul li{
   #menu-toggle:checked + .menu-button-container + nav .menu li {
     display: block;
     text-align: center;
-    background-color: #fff;
     border-radius: 10px;
     transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-
-  .menu {
-    align-items: center;
-  }
+  
   ul.menu{
-    margin: 0;
     position: absolute;
     top: 20%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
-   }
+    left: 46%;
+    width: 100%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+  }
+
 }
+
+a {
+  color: #000;
+}
+
+#contenido, h1, h2, h3, h4{
+  margin-top: 32px;
+  color: #000;
+  font-size:large;
+  padding-bottom: 300px;
+}
+
+
+
+
 
